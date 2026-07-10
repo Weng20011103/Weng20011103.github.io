@@ -1,0 +1,23 @@
+/* 移除超連結預設的藍色字體與底線 */
+.block-link {
+  text-decoration: none;
+  color: inherit; /* 繼承原本文字的顏色 */
+  display: block; /* 確保連結填滿整個區塊空間 */
+}
+
+/* 卡片區塊的樣式 */
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease; /* 讓滑鼠懸停動畫更平滑 */
+}
+
+/* 滑鼠移上去時的效果（提升使用者體驗） */
+.card:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px); /* 微微向上懸浮 */
+  cursor: pointer;
+}
