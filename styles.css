@@ -1,3 +1,11 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: blue;
+}
+
 /* 移除超連結預設的藍色字體與底線 */
 .block-link {
   text-decoration: none;
